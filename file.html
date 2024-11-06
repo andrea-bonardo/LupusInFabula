@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stanza Virtuale</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login">
+        <h2>Entra nella Stanza</h2>
+        <input type="text" id="username" placeholder="Nome" required>
+        <input type="text" id="roomCode" placeholder="Codice Stanza" required>
+        <button onclick="joinRoom()">Entra</button>
+    </div>
+
+    <div id="room" style="display: none;">
+        <h2>Benvenuto nella stanza: <span id="roomTitle"></span></h2>
+        <button onclick="leaveRoom()">Esci</button>
+        <h3>Partecipanti:</h3>
+        <ul id="participantsList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

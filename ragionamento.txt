@@ -1,0 +1,10 @@
+
+considerazioni:
+    bisogna pensare a come vogliamo gli input e gli output
+    tutto testuale è facile ma brutto
+    
+    considermiamo un input del numero di giocatori (nomi?)
+    anche solo la distribuzione delle carte è un problema
+    il modo più logico sarebbe un'app / sito web / bot telegram
+
+**Sito web multiplayer**
