@@ -8,3 +8,5 @@ considerazioni:
     il modo più logico sarebbe un'app / sito web / bot telegram
 
 **Sito web multiplayer**
+
+creato funzioni di base, da fare prima il multiplayer e poi la pubblicazione su github.pages
