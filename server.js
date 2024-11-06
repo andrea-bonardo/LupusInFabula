@@ -1,7 +1,9 @@
 const WebSocket = require('ws');
 
+// Change the port and host to bind to all network interfaces
 const port = 8080;
-const wss = new WebSocket.Server({ port });
+const host = '0.0.0.0';
+const wss = new WebSocket.Server({ port, host });
 
 wss.on('error', (error) => {
     if (error.code === 'EADDRINUSE') {
